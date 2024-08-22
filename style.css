@@ -1,0 +1,92 @@
+body {
+  background-color: #dcd2d6;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product {
+  background-color: white;
+  width: 600px;
+  height: 500px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.perfume {
+  width: 300px;
+  height: 500px;
+}
+.product-details {
+  display: flex;
+  height: 500px;
+  width: 300px;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 20px;
+}
+h5 {
+  color: gray;
+}
+
+h4 {
+  color: gray;
+}
+.amount {
+  display: flex;
+  gap: 10px;
+}
+.price {
+  font-size: 30px;
+  font-weight: 700;
+  color: green;
+}
+.strike {
+  color: gray;
+}
+button {
+  background-color: green;
+  display: flex;
+  gap: 10px;
+  color: white;
+  border: none;
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  padding-left: 70px;
+  padding-top: 5px;
+}
+
+@media (max-width: 450px) {
+  .product {
+    background-color: white;
+    width: 350px;
+    height: 800px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .perfume {
+    width: 100%;
+    height: 300px;
+  }
+  .product-details {
+    display: flex;
+    height: 400px;
+    width: 300px;
+    flex-direction: column;
+    gap: 5px;
+  }
+  button {
+    background-color: green;
+    display: flex;
+    gap: 10px;
+    color: white;
+    border: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 70px;
+    padding-top: 5px;
+  }
+}
